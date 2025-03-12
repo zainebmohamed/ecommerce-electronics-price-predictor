@@ -1,1 +1,13 @@
-
+{ "url": "https://real-time-amazon-data.p.rapidapi.com/search",
+  "Product": 
+	{"Phone" : {"query":"Phone","page":1,"country":"GB","sort_by":"RELEVANCE","category_id":"5362060031",
+        	   "product_condition":"NEW","brand":"Apple, Samsung, OnePlus, Xiaomi, Google, OPPO, Motorola, Honor"},
+        
+	"Tablet":  {"query":"Tablets","page": 1,"country":"GB","sort_by":"RELEVANCE","category_id":"340831031",
+                   "product_condition":"NEW","brand":"Xiaomi, Amazon, Lenovo, Samsung, Apple, HUAWEI, DOOGEE"},
+        "Headphones & Earphones": {"query":"Headphones & Earphones","page": 1,"country":"GB",
+		      "sort_by":"RELEVANCE","category_id":"4085731",
+		      "product_condition":"NEW","brand":"Sony, soundcore, Apple, Bose, JBL, Logitech, Sennheiser, Jabra, Samsung"}
+},
+"total_pages": 20
+}
