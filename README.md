@@ -1,6 +1,6 @@
 # Minimum Offer Price Prediction for Electronics on Amazon
 
-This project focuses on predicting the minimum offer price of electronic products (Phones, Tablets, Headphones, & Earphones) on Amazon. The model uses product search data extracted via RapidAPI, a platform that provides access to the Amazon Product Search API, offering detailed product information.
+This project involves predicting the minimum offer price of electronic products (Phones, Tablets, Headphones, & Earphones) on Amazon. The model uses product search data extracted via RapidAPI, a platform that provides access to the Amazon Product Search API, offering detailed product information.
 
 ## Problem Statement
 
