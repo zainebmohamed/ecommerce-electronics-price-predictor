@@ -4,7 +4,7 @@ This project involves predicting the minimum offer price of electronic products 
 
 ## Problem Statement
 
-The goal of this project is to develop a regression model that predicts the **minimum offer price** of electronic products on Amazon. By predicting this price, the model helps buyers estimate the lowest possible price for a product, enabling better purchasing decisions. For sellers, the model provides insights into competitive pricing, helping them optimise their pricing strategies and remain competitive in the marketplace.
+The goal of this project is to train a regression model that predicts the **minimum offer price** of electronic products on Amazon. By predicting this price, the model helps buyers estimate the lowest possible price for a product, enabling better purchasing decisions. For sellers, the model provides insights into competitive pricing, helping them optimise their pricing strategies and remain competitive in the marketplace.
 
 ## Dataset
 
