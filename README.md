@@ -70,7 +70,7 @@ This project has been split into 3 phases:
 - **Pre-feature engineering/hyperparameter tuning: R&sup2; = 0.56**
 - **Post-feature engineering/hyperparameter tuning: R&sup2; = 0.73**
 
-The model now explains 73% of the variance in the target variable, demonstrating a significant improvement in its ability to predict the product minimum offer price.
+The model now explains 73% of the variance in the target variable. Through targeted model optimisation efforts, the performance of the model improved by 30% relative to the original R&sup2; score. 
 
 To further improve the model, more data across all product types would be beneficial to help the model generalise better. Additional features could also be explored to better understand nuanced differences in pricing strategies between products.
 
