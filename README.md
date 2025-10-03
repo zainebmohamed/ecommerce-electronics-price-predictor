@@ -31,12 +31,12 @@ This project has been split into 3 phases:
 - `Data Processing`
 - `Model Building`
 
-# Data Extraction
+## Data Extraction
 
 - Initialise an API connection using Python’s requests package to retrieve product search data using a REST API available via Rapid API (API Marketplace)
 -	Save raw data as a csv file to be pre-processed in the next phase
 
-# Data Processing
+## Data Processing
 
 -	Drop irrelevant columns, and anonymise any brand identifiable fields 
 -	Drop any records where the target variable is null
