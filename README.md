@@ -31,19 +31,19 @@ This project has been split into 3 phases:
 - `Data Processing`
 - `Model Building`
 
-## Data Extraction
+### Data Extraction
 
 - Initialise an API connection using Python’s requests package to retrieve product search data using a REST API available via Rapid API (API Marketplace)
 -	Save raw data as a csv file to be pre-processed in the next phase
 
-## Data Processing
+### Data Processing
 
 -	Drop irrelevant columns, and anonymise any brand identifiable fields 
 -	Drop any records where the target variable is null
 -	Preprocess pricing fields, removing any non-numeric characters
 -	Create a rules-based framework to filter erroneous accessories data i.e. Keyboards / Covers
 
-## Feature Engineering
+### Feature Engineering
 
 **Pre-Model Training**
 -	Combat multicollinearity between pricing columns by creating a derived feature variable which extracts the discount rate between the original and current price
@@ -65,6 +65,7 @@ This project has been split into 3 phases:
 - Alternative models were trained to find the best performing model e.g Cat Boost regressor 
 - The final model is saved as a pickle file
 
+## Model Performance & Next Steps
 
 ## Environment
 
