@@ -41,7 +41,7 @@ This project has been split into 3 phases:
 -	Drop irrelevant columns, and anonymise any brand identifiable fields 
 -	Drop any records where the target variable is null
 -	Preprocess pricing fields, removing any non-numeric characters
--	Create a rules-based framework to filter erroneous accessories data i.e., Keyboards / Covers
+-	Create a rules-based framework to filter erroneous accessories data i.e. Keyboards / Covers
 
 ## Feature Engineering
 
