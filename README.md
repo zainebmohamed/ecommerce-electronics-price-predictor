@@ -1,6 +1,6 @@
 # Minimum Offer Price Prediction of Electronics Sold on an E-Commerce Platform
 
-This project involves predicting the minimum offer price of electronic products (Phones, Tablets, Headphones, & Earphones) sold on an e-commerce platform. The model uses product search data extracted via RapidAPI, an API marketplace that provides access to the Product Search API, offering detailed product information*.
+This project involves predicting the minimum offer price of electronic products (Phones, Tablets, Headphones, & Earphones) sold on an e-commerce platform. The model uses product search data extracted via RapidAPI, an API marketplace that provides access to the Product Search API, offering detailed product information\*.
 
 ## Problem Statement
 
@@ -22,7 +22,7 @@ The dataset contains the following columns:
 10. **is_fast_shipping**: Whether the product is eligible for fast shipping (1 = True, 0 = False).
 11. **product**: Product category (e.g., Phone, Tablet, Headphones & Earphones).
 
-* Note, all brand-specific identifiers have been removed or renamed during data preprocessing.
+\* Note, all brand-specific identifiers have been removed or renamed during data preprocessing.
 
 ## Model Workflow
 
