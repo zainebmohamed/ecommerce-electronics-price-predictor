@@ -67,8 +67,8 @@ This project has been split into 3 phases:
 
 ## Model Performance & Next Steps
 
-- **Pre-feature engineering/hyperparameter tuning:** ` R&sup2; score:  0.56`
-- **Post-feature engineering/hyperparameter tuning:** ` R&sup2; score: 0.73`
+- **Pre-feature engineering/hyperparameter tuning: R&sup2; = 0.56**
+- **Post-feature engineering/hyperparameter tuning: R&sup2; = 0.73**
 
 The model now explains 73% of the variance in the target variable, demonstrating a significant improvement in its ability to predict the product minimum offer price.
 
