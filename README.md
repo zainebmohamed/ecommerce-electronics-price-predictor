@@ -61,7 +61,7 @@ This project has been split into 3 phases:
 - Create a custom class that imputes the product star rating using the median, grouped by the product type
 - Apply a log transformation to the target variable to stabilise variance and reduce skewness. Note the model was trained with and without the log transformation to compare performance.
 - Build a pipeline that integrates column transformers for encoding and scaling, a custom imputation class, and a Random Forest regressor to train. 
-- RandomizedSearchCV is used for hyperparameter tuning and the model is evaluated to identify the best parameters that optimise the R&sup2 score
+- RandomizedSearchCV is used for hyperparameter tuning and the model is evaluated to identify the best parameters that optimise the R&sup2; score
 - Alternative models were trained to find the best performing model i.e Cat Boost regressor 
 - The final model is saved as a pickle file
 
