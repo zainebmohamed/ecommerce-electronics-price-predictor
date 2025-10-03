@@ -47,7 +47,7 @@ This project has been split into 3 phases:
 
 **Pre-Model Training**
 -	Combat multicollinearity between pricing columns by creating a derived feature variable which extracts the discount rate between the original and current price
--	Create three new feature variables derived from the product title using regex: ‘Storage capacity’ /  ‘has storage’  /  ‘brand’
+-	Create three new feature variables derived from the product title using regex: ‘storage capacity’ / ‘has storage’  / ‘brand’
 
 **Post-Model Training**
 
