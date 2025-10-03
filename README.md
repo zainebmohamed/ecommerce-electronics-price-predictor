@@ -49,7 +49,7 @@ This project has been split into 3 phases:
 -	Combat multicollinearity between pricing columns by creating a derived feature variable which extracts the discount rate between the original and current price
 -	Create three new feature variables derived from the product title using regex: ‘Storage capacity’ /  ‘has storage’  /  ‘brand’
 
-**Pre-Model Training**
+**Post-Model Training**
 
 -	Remove storage capacity outliers using the Interquartile Range (IQR) method
 -	Apply a log transformation to heavily right skewed numerical features
