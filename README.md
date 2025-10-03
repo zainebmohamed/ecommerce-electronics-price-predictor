@@ -53,7 +53,7 @@ This project has been split into 3 phases:
 
 -	Remove storage capacity outliers using the Interquartile Range (IQR) method
 -	Apply a log transformation to heavily right skewed numerical features
--	Create interaction features
+-	Create an interaction feature between product and brand, leveraging their high feature importance
 -	Filter out any brands which have a count smaller than 10
 
 # Model Building
