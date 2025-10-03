@@ -10,17 +10,17 @@ The goal of this project is to train a regression model that predicts the **mini
 
 The dataset contains the following columns:
 
-1. **product_title**: Title of the product.
-2. **product_price**: Current price of the product.
-3. **product_original_price**: Original price (before any discounts).
-4. **product_star_rating**: Average customer rating.
-5. **product_num_ratings**: Total number of ratings.
-6. **product_num_offers**: Number of offers available.
-7. **product_minimum_offer_price**: The target variable—minimum price offered for the product.
-8. **is_best_seller**: Whether the product is a "Best Seller" (1 = True, 0 = False).
-9. **is_recommended**: Whether the product is marked as 'Recommended' based on customer ratings, purchase rate etc (1 = True, 0 = False).
-10. **is_fast_shipping**: Whether the product is eligible for fast shipping (1 = True, 0 = False).
-11. **product**: Product category (e.g., Phone, Tablet, Headphones & Earphones).
+1. **product_title**: Title of the product
+2. **product_price**: Current price of the product
+3. **product_original_price**: Original price (before any discounts)
+4. **product_star_rating**: Average customer rating
+5. **product_num_ratings**: Total number of ratings
+6. **product_num_offers**: Number of offers available
+7. **product_minimum_offer_price**: The target variable - minimum price offered for the product
+8. **is_best_seller**: Whether the product is a "Best Seller" (1 = True, 0 = False)
+9. **is_recommended**: Whether the product is marked as 'Recommended' based on customer ratings, purchase rate etc (1 = True, 0 = False)
+10. **is_fast_shipping**: Whether the product is eligible for fast shipping (1 = True, 0 = False)
+11. **product**: Product category (e.g., Phone, Tablet, Headphones & Earphones)
 
 \* Note, all brand-specific identifiers have been removed or renamed during data preprocessing.
 
