@@ -56,7 +56,7 @@ This project has been split into 3 phases:
 -	Create an interaction feature between product and brand, leveraging their high feature importance
 -	Filter out any brands which have a count smaller than 10
 
-# Model Building
+### Model Building
 
 - Create a custom class that imputes the product star rating using the median, grouped by the product type
 - Apply a log transformation to the target variable to stabilise variance and reduce skewness. Note the model was trained with and without the log transformation to compare performance.
@@ -66,6 +66,13 @@ This project has been split into 3 phases:
 - The final model is saved as a pickle file
 
 ## Model Performance & Next Steps
+
+- **Pre-feature engineering/hyperparameter tuning:** `R&sup2; score:  0.56`
+- **Post-feature engineering/hyperparameter tuning:** `R&sup2; score: 0.73`
+
+The model now explains 73% of the variance in the target variable, demonstrating a significant improvement in its ability to predict the product minimum offer price.
+
+To further improve the model, more data across all product types would be beneficial to help the model generalise better. Additional features could also be explored to better understand nuanced differences in pricing strategies between products.
 
 ## Environment
 
